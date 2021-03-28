@@ -8,5 +8,18 @@ module.exports = {
     },
     resolve: {
         extensions: ['.js']
+    },
+    //rules for working with babel
+    module: {
+        rules: [
+        {//RegExp: any file starting with m or js
+            test: /\.m?js$/,
+            //not use node_modules
+            exclude: /node_modules/,
+            use: {
+                loader: 'babel-loader'
+            }
+        }
+        ]
     }
 }
