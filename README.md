@@ -1,1 +1,1 @@
-# curso-webpack
+# a web compiled by webpack
