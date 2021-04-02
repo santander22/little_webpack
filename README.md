@@ -1,1 +1,1 @@
-# a web compiled by webpack
+# a simple web compiled by webpack
